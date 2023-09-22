@@ -30,7 +30,12 @@ The following technologies and tools were used in the development of this projec
 
 ## Project Structure
 
-The project follows a standard Spring Boot project structure.
+The project follows a standard Spring Boot project structure.  
+
+![image](https://github.com/DarshanHiremath/Diatoz_Assignment/assets/87310019/935aa94b-93a0-403c-a30a-053e80f58c44)
+
+![image](https://github.com/DarshanHiremath/Diatoz_Assignment/assets/87310019/22fb1ce9-89fb-4375-aef7-83f16eea5f0e)
+
 
 ### Application Features
 
