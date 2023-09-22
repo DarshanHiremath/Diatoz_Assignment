@@ -20,8 +20,7 @@ public class StudentService {
     }
 
     public Student createStudent(Student student) {
-        // Implement logic to create a new student
-        // You may want to perform validation, password hashing, etc.
+       
         return studentRepository.save(student);
     }
 
@@ -33,14 +32,13 @@ public class StudentService {
    
 
     public Student updateStudent(int studentId, Student updatedStudent) {
-        // Implement logic to update student information
-        // You may want to add error handling for cases where the student does not exist
+        
         Student existingStudent = studentRepository.findByStudentId(studentId);
         
         if (existingStudent != null) {
-            // Update student properties here
+           
             existingStudent.setName(updatedStudent.getName());
-            // Update other properties as needed
+           
             return studentRepository.save(existingStudent);
         }
         else
@@ -57,7 +55,7 @@ public class StudentService {
     }
 
     public void deleteStudent(String studentId) {
-        // Implement logic to delete a student by ID
+      
         studentRepository.deleteByStudentrollNo(studentId);
     }
 
