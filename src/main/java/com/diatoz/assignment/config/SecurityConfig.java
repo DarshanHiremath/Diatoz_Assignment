@@ -1,7 +1,7 @@
 package com.diatoz.assignment.config;
+
 import com.diatoz.assignment.filter.JwtFilter;
 import com.diatoz.assignment.service.AdminService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
