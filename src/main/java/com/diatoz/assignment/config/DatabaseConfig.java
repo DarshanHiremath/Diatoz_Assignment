@@ -18,7 +18,7 @@ public class DatabaseConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactoryBean.setDataSource(dataSource);
-        entityManagerFactoryBean.setPackagesToScan("com.diatoz.assignment.model"); // Replace with your entity package
+        entityManagerFactoryBean.setPackagesToScan("com.diatoz.assignment.model"); 
         entityManagerFactoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         return entityManagerFactoryBean;
     }
